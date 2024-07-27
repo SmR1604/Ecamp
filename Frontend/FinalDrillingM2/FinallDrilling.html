@@ -18,16 +18,47 @@
 <body>
     <h1>Bienvenido a mi portafolio</h1>
     <p>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
-            aria-expanded="false" aria-controls="collapseWidthExample">
-            Toggle width collapse
-        </button>
+    <div class="botonpopup"></div>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
+        aria-expanded="false" aria-controls="collapseWidthExample">
+        Sobre mi
+    </button>
+    </div>
     </p>
     <div style="min-height: 120px;">
         <div class="collapse collapse-horizontal" id="collapseWidthExample">
             <div class="card card-body" style="width: 300px;">
-                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when
-                triggered.
+                Mi nombre es Santiago Rios, actualmente trabajo para una compañia dedicada al seguimiento satelital en
+                vehiculos, pero un fiel amante de las TI e informatica.
+            </div>
+        </div>
+    </div>
+    <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px;">
+                Nacì en argentina pero actualmente vivo en chile
+            </div>
+        </div>
+    </div>
+    <p class="d-inline-flex gap-1">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+            aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+    </p>
+    <div class="row">
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                    Some placeholder content for the first collapse component of this multi-collapse example. This panel
+                    is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                    Some placeholder content for the second collapse component of this multi-collapse example. This
+                    panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
             </div>
         </div>
     </div>
