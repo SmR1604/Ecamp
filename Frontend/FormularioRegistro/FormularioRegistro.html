@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <style>
+        body {
+            font-family: Georgia;
+            font-size: larger;
+
+        }
+
+        .container {
+            max-width: 300px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: left;
+
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 85%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+
+        input[type="submit"] {
+            width: 75%;
+            padding: 10px;
+            background-color: #ffffff;
+            color: rgb(8, 8, 8);
+            border: color(black ¿);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ffffff;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .login-link a {
+            color: #1b03f7;
+            text-decoration: none;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Regístrate</h2>
+        <form action="/register" method="post">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="apellido" placeholder="Apellido" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="contraseña" placeholder="Contraseña" required>
+            <input type="submit" value="Regístrate">
+        </form>
+        <div class="login-link">
+            ¿Ya eres miembro? <a href="/login">Inicia tu sesión</a>
+        </div>
+    </div>
+</body>
+
+</html>

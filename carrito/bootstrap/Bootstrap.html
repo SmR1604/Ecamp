@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page</title>
+    <script src="carrito.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="Rotiseria2.html">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="rotiseria.png" alt=""></div>
+        <nav>
+            <ul>
+                <li><a href="Rotiseria2.html">Nuestos servicios</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <input type="text" placeholder="Busque su producto">
+            <button class="search-button">🔍</button>
+            <button class="cart-button">🛒<span class="cart-count">5</span></button>
+        </div>
+    </header>
+    <main>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="empanadacamaronqueso.jpg" alt="Product Image">
+                <h3>Empanada Camaron-Queso</h3>
+                <br>
+                <p>Una deliciosa empanada rellena de camaron de la V Region y un queso producido en nuestra fabrica de
+                    quesos</p>
+                <p class="price">$CLP 2.500</p>
+                <h4>Stock:</h4>
+                <button class="añadirCarrito" id="botonCarrito">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="empanadajamonqueso.jpeg" alt="Product Image">
+                <h3>Empanada Jamon-Queso</h3><br>
+                <p>Una deliciosa empanada rellena de un jamon <br> elaborado en nuestros campos y el mejor queso
+                    proveniente de nuestra fabrica</p>
+                <p class="price">$CLP 1.500</p>
+                <h4>Stock:</h4>
+                <button class="añadirCarrito" id="botonCarrito">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="empanadapino.jpeg" alt="Product Image">
+                <h3>Empanada de Pino</h3>
+                <p>Una deliciosa empanada rellena de un jugoso y perfectamente balanceado pino de carne elaborado
+                    por una carne premium de los mejores proovedores del pais</p>
+                <p class="price">$CLP 1.500</p>
+                <h4>Stock:</h4>
+                <button class="añadirCarrito" id="botonCarrito">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="Sopaipa.jpeg" alt="Product Image">
+                <h3>Sopaipilla</h3>
+                <p></p>
+                <p class="price">$CLP 400</p>
+                <h4>Stock:</h4>
+                <button class="añadirCarrito" id="botonCarrito">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="empanadamarisco.jpg" alt="Product Image">
+                <h3>Empanada de Marisco</h3>
+                <p>Una deliciosa empanada rellena de los mejores mariscos de la zona</p>
+                <p class="price">$CLP 3.000</p>
+                <h4>Stock:</h4>
+                <button class="añadirCarrito" id="botonCarrito">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="empanadas-pollo-jugosas.jpg" alt="Product Image">
+                <h3>Empanada de Pino</h3>
+                <p>Una deliciosa empanada rellena de pollo de una renombrada marca junto a un salteado de verduras hecho
+                    por nuestro chef</p>
+                <p class="price">$CLP 1.500</p>
+                <h4>Stock:</h4>
+                <button class="añadirCarrito" id="botonCarrito">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="empanda-queso-frita.jpg" alt="Product Image">
+                <h3>Empanada de Queso de la casa</h3>
+                <p>Una deliciosa empanada rellena de un jugoso y balanceado queso mantecoso</p>
+                <p class="price">$CLP 1.000</p>
+                <h4>Stock:</h4>
+                <button class="añadirCarrito" id="botonCarrito">Añadir al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="masaempanada.jpg" alt="Product Image">
+                <h3>Masa para empanadas</h3>
+                <p>Haga sus empanadas en la casa como si recien las sacara de nuestro local</p>
+                <p class="price">$CLP 800/docena</p>
+                <h4>Stock:</h4>
+                <button class="añadirCarrito" id="botonCarrito">Añadir al carrito</button>
+            </div>
+
+            <!-- Repite el div de product-card para más productos -->
+        </div>
+    </main>
+</body>
+
+</html>
